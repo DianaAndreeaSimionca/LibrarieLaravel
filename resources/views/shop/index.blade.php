@@ -5,12 +5,12 @@
 @endsection
 
 @section('content')
-    <div class="row carouselMyStyle">
+    <div class="row">
         <div class="col-md-1">
 
         </div>
         <div class="col-md-10">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carouselMyStyle" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -55,10 +55,10 @@
             <img style="height: 100%;" src="{{ URL::to('src/photos/xxx039-512.png')  }}" alt="Down Button">
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
             <button type="button" style="width: 100%; height: 100%;" class="btn btn-warning">Children</button>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1">
         </div>
     </div>
 
