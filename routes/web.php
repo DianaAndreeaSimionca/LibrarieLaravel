@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('shop.index');
 });
+
+Route::get('main', function () {
+    return view('shop.main');
+})->name('main');
